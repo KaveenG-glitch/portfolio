@@ -1,0 +1,234 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Kaveen Goswami Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+@page{size:8.5in 11in;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Source Sans 3',Arial,sans-serif;color:#1b1b1b;font-size:10pt;line-height:1.42;background:#fff}
+.page{width:8.5in;height:11in;padding:.55in .6in .5in;position:relative;page-break-after:always;overflow:hidden}
+.page:last-child{page-break-after:auto}
+.ini{position:absolute;top:.38in;right:.6in;font-size:11pt;letter-spacing:.12em;font-weight:600}
+.pn{position:absolute;bottom:.35in;right:.6in;font-size:8.5pt;color:#666}
+h2{font-size:15pt;font-weight:400;margin:.12in 0 .16in}
+h2 b{font-weight:700}
+h2 .n{color:#9a3412;font-weight:700;margin-right:6px}
+p{margin-bottom:8px}
+img{display:block;max-width:100%}
+.cap{font-size:8pt;color:#555;margin-top:3px}
+.row{display:flex;gap:.22in;align-items:flex-start}
+.col{flex:1;min-width:0}
+table{border-collapse:collapse;width:100%;font-size:8.8pt;margin:4px 0 8px}
+td,th{padding:2px 6px;border-bottom:1px solid #ddd;text-align:left;font-weight:400}
+th{font-weight:600}
+</style><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@media screen{
+  html{background:#e7e7e7}
+  body{background:#e7e7e7;padding:56px 0 24px}
+  .page{margin:0 auto 22px;background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.18)}
+  .bar{position:fixed;top:0;left:0;right:0;height:40px;background:#fff;border-bottom:1px solid #d6d6d6;
+       display:flex;align-items:center;justify-content:space-between;padding:0 18px;z-index:9;
+       font:600 13px 'Source Sans 3',Arial,sans-serif}
+  .bar a{color:#9a3412;text-decoration:none}
+}
+@media print{.bar{display:none}}
+</style>
+</head><body>
+<div class="bar"><span>Kaveen Goswami &middot; Engineering Portfolio</span><a href="Kaveen_Goswami_Engineering_Portfolio.pdf">Download PDF</a></div>
+
+<!-- COVER -->
+<section class="page" style="padding:.9in .8in">
+  <div style="font-size:24pt;font-weight:700;line-height:1.1">Kaveen Goswami</div>
+  <div style="font-size:14pt;margin-top:4px">Mechanical Engineering Portfolio</div>
+  <div style="font-size:10pt;color:#444;margin-top:14px;line-height:1.5">
+    University of California, Berkeley<br>
+    BA Physics, Minors in Mechanical Engineering and Energy Engineering, December 2028<br>
+    kaveengoswami@berkeley.edu &nbsp;·&nbsp; linkedin.com/in/kaveengoswami
+  </div>
+  <img src="imgc/os8.jpg" style="position:absolute;left:50%;transform:translateX(-50%);bottom:.9in;height:7.1in">
+</section>
+
+<!-- CONTENTS -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><b>Contents</b></h2>
+  <div style="font-size:12.5pt;line-height:2.1;margin-top:.2in">
+    <div><span style="color:#9a3412;font-weight:700">01</span>&nbsp; <b>Lunar Hopper</b>, release gearbox for a jumping rover</div>
+    <div><span style="color:#9a3412;font-weight:700">02</span>&nbsp; <b>Wind turbine blade</b>, airfoil and twist design</div>
+    <div><span style="color:#9a3412;font-weight:700">03</span>&nbsp; <b>3D modeling coursework</b>, SolidWorks parts and assemblies</div>
+    <div><span style="color:#9a3412;font-weight:700">04</span>&nbsp; <b>NASA Drop Tower Challenge</b>, microgravity experiment</div>
+    <div><span style="color:#9a3412;font-weight:700">05</span>&nbsp; <b>Space settlement design</b>, Earth to Moon communications</div>
+  </div>
+  <div style="margin-top:.5in;max-width:6.2in">
+  <p>I'm a second-year at UC Berkeley, majoring in physics with a minor in mechanical engineering, and I expect to graduate in December 2028.</p>
+  <p>Most of my design work happens in Space Technologies at Cal. I joined the Lunar Hopper team in August 2025 and now lead its mechanical engineering, and I'm also the club's internal vice president. My main contribution to the hopper has been the gearbox that winds and releases its spring legs. I also built a slider rig to test the carbon fiber legs, so the team's jump-height model now runs on measured values.</p>
+  <p>The middle of the portfolio is coursework from Three-Dimensional Modeling for Design, Berkeley's SolidWorks class, which I'm taking this semester. It includes a wind turbine blade I designed from airfoil data, a lofted vase, and a vault door lock assembly. The last two projects are from high school: a microgravity experiment for NASA's Drop Tower Challenge, and the communications system for a lunar settlement design that placed first at the International Space Settlement Design Competition's global finals.</p>
+</div>
+  <div class="pn">1</div>
+</section>
+
+<!-- HOPPER 1 -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">01</span><b>Lunar Hopper</b>&nbsp; release gearbox for a jumping rover</h2>
+  <img src="imgc/os2.jpg" style="width:100%">
+  <div class="cap">The hopper as it stood when I joined the team in August 2025 (team Onshape model).</div>
+  <div class="row" style="margin-top:.18in">
+    <div class="col">
+      <p>The Lunar Hopper is a Space Technologies at Cal project to build a rover that jumps instead of driving. Wheeled rovers get stuck in terrain like the rim of Shackleton crater at the lunar south pole. The hopper gets around that by winding a cord to bend carbon fiber legs, then letting the cord go so the legs spring back and throw the body into the air.</p>
+      <p>I joined in August 2025 and now lead the mechanical engineering work. The structure, legs and control servos shown above were already designed by the team when I arrived. My first piece was the drivetrain that winds and releases the legs, which sits on the top plate.</p>
+    </div>
+    <div class="col">
+      <img src="imgc/os3.jpg">
+      <div class="cap">The gearbox module on the hopper's top plate.</div>
+      <p style="margin-top:8px">Winding takes a lot of torque, since the cord has to hold at least 100 lbf to bend the legs. Releasing is the opposite problem. The spool has to spin with nothing holding it back, because any drag left on it slows the jump.</p>
+    </div>
+  </div>
+  <div class="pn">2</div>
+</section>
+
+<!-- HOPPER 2 -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">01</span><b>Lunar Hopper</b>&nbsp; winding and release</h2>
+  <div class="row">
+    <div class="col" style="flex:1.15"><img src="imgc/os5.jpg"><div class="cap">Motor, spur gear and winch spool between the two side plates.</div></div>
+    <div class="col"><img src="imgc/os4.jpg"><div class="cap">Top view of the gearbox on the mounting plate (SolidWorks).</div></div>
+  </div>
+  <div class="row" style="margin-top:.2in">
+    <div class="col">
+      <p>The first layout put a one-way bearing directly on the spool. When I walked through the release step by step, I found that the motor would have to drive the unwind. The cord could only pay out as fast as the motor spun backward, which would cap the jump speed. We caught this on paper before anything was built.</p>
+      <p>The new layout uses three gears. A spur gear on the motor drives a floating gear held in a pear-shaped swing housing, and the floating gear drives a gear on the winch spool. The one-way bearing moved into the swing housing. Running the motor forward keeps the floating gear meshed and winds the spool. On the first reverse turn, the housing swings along an arc-shaped slot in the gearbox wall and pulls the floating gear out of mesh, so the spool spins free.</p>
+    </div>
+    <div class="col">
+      <p>The early N20 gearmotor shown here was enough to check that the swing arm moved the way it should, but it didn't have the torque to bend the legs. I compared motor and gearbox pairings on stall torque, no-load speed and mass. A brushed motor is fine for the proof of concept, and brushless is the goal later for its power-to-weight ratio. The first CAD had a 1:1 gear ratio, so I increased the reduction to trade winding speed for torque at the spool. The final train is 22&#8209;15&#8209;30 spur gears plus a 2:1 bevel stage, which gives 2.73 times the output torque. I also ran SolidWorks FEA on the gearbox's waterjet-cut 6061 aluminum side walls under the full 445 N (100 lbf) cord load.</p>
+      <p>For the cord, we replaced nylon fishing line with Kevlar, tied, crimped and heat-fused at the end. I also made the spool radius bigger so it winds faster and the cord jams less, and so the Kevlar isn't bent tighter than its minimum bend radius.</p>
+    </div>
+  </div>
+  <div class="pn">3</div>
+</section>
+
+<!-- HOPPER 3 -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">01</span><b>Lunar Hopper</b>&nbsp; current design</h2>
+  <div class="row">
+    <div class="col" style="flex:.62"><img src="imgc/os6.jpg"><div class="cap">Current hopper, legs extended.</div></div>
+    <div class="col"><img src="imgc/os7.jpg"><div class="cap">Current hopper body: hub, servos and leg mounts.</div></div>
+  </div>
+  <div class="row" style="margin-top:.2in">
+    <div class="col">
+      <p>Since the early model, the hopper has been redesigned around a capsule-shaped body. I run the team's mechanical design reviews, tracking how the winch, capsule and legs connect, and I drove the change from the original base tripod to three linear-servo truss legs so the hopper can right itself after landing. We've also started physically assembling parts. Where parts didn't fit or work well together, we changed the design.</p>
+      <p>To save mass and power, we cut 8 sensors from the rover design. Most of them were on the sample-drill payload.</p>
+    </div>
+    <div class="col">
+      <p>The gearbox hasn't been moved into this version yet.</p>
+      <p>To get real numbers for the legs, I modeled the carbon fiber spring rods as post-buckled columns and built a slider test rig, using a load cell and an HX711 amplifier to measure force against deflection. The team has a Python script that relates the legs' properties to the hopper's weight and jump height, and it now runs on the measured bending stiffness (EI) and plateau force instead of estimates.</p>
+    </div>
+  </div>
+  <div class="pn">4</div>
+</section>
+
+<!-- BLADE -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">02</span><b>Wind turbine blade</b>&nbsp; airfoil and twist design</h2>
+  <img src="imgc/l5_charts.jpg" style="width:100%">
+  <div class="cap">Left: lift-to-drag ratio of the SG6043 against angle of attack, from XFOIL data. Right: best possible power coefficient against tip speed ratio for one to four blades.</div>
+  <div class="row" style="margin-top:.18in">
+    <div class="col">
+      <p>In Three-Dimensional Modeling for Design, each person in our group designed a blade concept for a small 3D-printed turbine: a 6 in rotor on a 1 in hub, driven by a lab fan at around 5 m/s. Small blades like this run at a low Reynolds number, where most airfoils lose lift and pick up drag. The common NACA 4412 was designed for full-size aircraft. I chose the SG6043, which was designed and wind-tunnel tested at the University of Illinois for small turbines.</p>
+      <p>I downloaded the SG6043's XFOIL lift and drag tables and graphed lift-to-drag. It peaks at about 66 at 7° for Re = 100,000, and the blade starts to stall around 12° to 14°, so I used 7° as the design angle. For blade count, I used the Wilson, Lissaman and Walker estimate. Going from 2 to 3 blades raises the best power coefficient from about 0.35 to 0.38, and a fourth blade only adds about 0.02, so I went with three.</p>
+    </div>
+    <div class="col">
+      <img src="imgc/l5_angles.jpg">
+      <div class="cap">Flow angles at one blade section, r = 2 in.</div>
+      <p style="margin-top:8px">The tip moves faster than the root, so each section needs its own pitch to stay at 7°. Using blade element equations with a tip speed ratio of 3, I worked out pitch and chord at six stations:</p>
+      <table>
+        <tr><th>r (in)</th><td>0.5</td><td>1.0</td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td></tr>
+        <tr><th>Pitch (°)</th><td>35</td><td>23</td><td>15</td><td>11</td><td>8</td><td>5</td></tr>
+        <tr><th>Chord (in)</th><td>1.09</td><td>1.12</td><td>0.95</td><td>0.79</td><td>0.67</td><td>0.58</td></tr>
+      </table>
+      <p>That works out to about 30° of twist. The widest chord still fits three blades on the hub. The sections get lofted together in SolidWorks.</p>
+    </div>
+  </div>
+  <div class="row" style="margin-top:.05in">
+    <div class="col"><img src="imgc/l5_profile.jpg"><div class="cap">SG6043 section plotted from its coordinates.</div></div>
+    <div class="col"><img src="imgc/l5_planform.jpg" style="max-height:1.7in"><div class="cap">Planform sketch with chord at each station.</div></div>
+  </div>
+  <div class="pn">5</div>
+</section>
+
+<!-- CAD -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">03</span><b>3D modeling coursework</b>&nbsp; Three-Dimensional Modeling for Design, SolidWorks</h2>
+  <div class="row">
+    <div class="col"><img src="imgc/L4_image8.jpg"><div class="cap">Six lobed sections on offset planes.</div></div>
+    <div class="col"><img src="imgc/L4_image9.jpg"><div class="cap">Twisted loft through the sections.</div></div>
+    <div class="col"><img src="imgc/L4_image10.jpg"><div class="cap">Shelled to 0.10 in and rendered.</div></div>
+  </div>
+  <p style="margin-top:.16in">I built this vase from cross-sections. Six lobed profiles grow toward the belly and narrow at the neck, spaced along a 9.5 in height. A twisted loft through them gives the outer form, and a shell turns it into a vessel. Because each profile is dimensioned from its own plane, changing one diameter or plane offset reshapes the body without breaking the rest of the model.</p>
+  <p>The parts below were modeled from 2D drawings using extrusions, cuts, revolves and sweeps. I checked each one's mass properties against the spec.</p>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:.12in;margin-top:.1in">
+    <img src="imgc/L1_image3.jpg"><img src="imgc/L1_image5.jpg"><img src="imgc/L2_image1.jpg"><img src="imgc/L2_image3.jpg">
+    <img src="imgc/L2_image5.jpg"><img src="imgc/L3_image3.jpg"><img src="imgc/L4_image1.jpg"><img src="imgc/L1_image1.jpg">
+  </div>
+  <div class="pn">6</div>
+</section>
+
+<!-- VAULT -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">03</span><b>3D modeling coursework</b>&nbsp; vault door lock assembly</h2>
+  <img src="imgc/vault3.jpg" style="height:4.3in;margin:0 auto">
+  <div class="cap">Exploded view with flow lines showing how each part goes together.</div>
+  <div class="row" style="margin-top:.18in">
+    <div class="col"><img src="imgc/vault1.jpg" style="height:2.4in;margin:0 auto"><div class="cap">Assembled, handwheel in one position.</div></div>
+    <div class="col"><img src="imgc/vault2.jpg" style="height:2.4in;margin:0 auto"><div class="cap">Assembled, handwheel turned.</div></div>
+  </div>
+  <p style="margin-top:.16in">I modeled each part of a vault door locking mechanism in its own file, working from dimensioned drawings, then mated them in an assembly. Turning the center handwheel swings the two curved links, which pull the locking bolts in and push them back out through their guide blocks. I set up the mates so the parts move the way the real mechanism would. I then made the exploded view with flow lines and checked the assembly's volume in Mass Properties.</p>
+  <div class="pn">7</div>
+</section>
+
+<!-- DROP TOWER -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">04</span><b>NASA Drop Tower Challenge</b>&nbsp; making a floating ball sink</h2>
+  <img src="imgc/dt_cells.jpg" style="width:100%">
+  <div class="cap">Frame from the drop video: three test cells in front of the reference grid.</div>
+  <div class="row" style="margin-top:.18in">
+    <div class="col">
+      <p>The 2023 challenge asked for objects that float in normal gravity but sink as far as possible in free fall. I worked on it with my partner Nishanth Joshi, and I was selected as 1 of 20 students nationwide. Our experiment ran in NASA Glenn's 79 ft drop tower, which gives 2.2 seconds of microgravity.</p>
+      <p>We used 30 mm spheres because a sphere has the least surface area for its volume, which keeps surface tension effects small. We looked at plastic, wood, cork and wool, and picked wool because it floats and has a hydrophobic surface over a hydrophilic core. One test ball floated for ten hours without sinking. We made three identical balls, 3.0 ± 0.1 g each. One was left plain as the control, one was coated in ground sidewalk chalk, and one in calcium carbonate. The coatings were packed tight and vacuum sealed.</p>
+    </div>
+    <div class="col">
+      <img src="imgc/dt_graph.jpg">
+      <div class="cap">Vertical displacement of all three balls during the drop.</div>
+      <p style="margin-top:8px">I tracked each ball frame by frame in Tracker, calibrated against the grid behind the cells. The calcium carbonate ball sank farthest and fastest, 0.0152 m, which is 2.3 times as far as the plain wool control at 0.0066 m. The chalk ball landed in between at 0.0126 m. That was the order we predicted. Without gravity, the water sticks to the hydrophilic coating and pulls the ball under.</p>
+    </div>
+  </div>
+  <div class="pn">8</div>
+</section>
+
+<!-- ISSDC -->
+<section class="page">
+  <div class="ini">KG</div>
+  <h2><span class="n">05</span><b>Space settlement design</b>&nbsp; Earth to Moon communications</h2>
+  <div class="row">
+    <div class="col" style="flex:1.2">
+      <p>At the International Space Settlement Design Competition's global finals in 2023, our company team designed a lunar settlement and placed first. I was the communications lead.</p>
+      <p>The settlement needed constant contact with Earth and with two other settlements. Our design put a relay satellite in a halo orbit around the Earth-Moon L2 point. An infrared laser carries the link from Earth to the relay and down to the Moon, using Earth's existing satellite network on one end and a ground antenna on the lunar end. The satellite keeps pointed at Earth with its attitude control system, and the laser head rotates 90° to reach the other settlements. Holding a halo orbit takes ongoing Δv, so we planned for regular refueling.</p>
+      <p>Inside the settlement, communication runs over a phone network split into five cells, each with its own antenna, connected by fiber.</p>
+      <p>Aathreya and I modeled the 120 ft lunar ground antenna in Blender.</p>
+    </div>
+    <div class="col" style="flex:.8"><img src="imgc/issdc_dish.jpg"><div class="cap">Lunar ground antenna, Blender.</div></div>
+  </div>
+  <div class="pn">9</div>
+</section>
+<script>
+(function(){function fit(){var w=816+24,z=Math.min(1,window.innerWidth/w);
+document.querySelectorAll('.page').forEach(function(p){p.style.zoom=z});}
+window.addEventListener('resize',fit);fit();})();
+</script>
+</body></html>
